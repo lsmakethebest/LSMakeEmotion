@@ -52,6 +52,35 @@
 
 @implementation ViewController
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+   NSString *s =[self strUTF8Encoding:@"https://download.fir.im/apps/5ae5de8dca87a86ebcce1edc/install?download_token=7a45bad43e3f479947b2c18059b32172"];
+    
+    
+    
+    [[UIApplication sharedApplication]openURL: [NSURL URLWithString:@"itms-services:///?action=download-manifest&url=https://download.mytogo.com/ground/ios/togoGround.plist"]] ;
+    NSString *version=[[[NSBundle mainBundle]infoDictionary]objectForKey:@"CFBundleVersion"];
+#ifdef  DEBUG
+    
+    [UIToast showMessageToCenter: [NSString stringWithFormat:@"0:%@",version]];
+#else
+    [UIToast showMessageToCenter: [NSString stringWithFormat:@"1:%@",version]];
+#endif
+    
+   
+}
+    
+#pragma mark - url 中文格式化
+- (NSString *)strUTF8Encoding:(NSString *)str
+    {
+        //ios9适配的话 打开第一个
+        if ([[UIDevice currentDevice] systemVersion].floatValue >= 9.0){
+            return [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]];
+        }
+        else{
+            return [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        }
+    }
 - (void)viewDidLoad {
     [super viewDidLoad];
 
@@ -410,5 +439,6 @@
         [self reset:nil];
     }
 }
+
 
 @end

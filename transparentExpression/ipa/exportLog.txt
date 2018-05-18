@@ -1,0 +1,3 @@
+Exported transparentExpression.xcarchive to: /Users/liusong/LSMakeEmotion/transparentExpression/ipa
+** EXPORT SUCCEEDED **
+

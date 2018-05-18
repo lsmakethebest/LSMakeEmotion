@@ -1,0 +1,90 @@
+=== CLEAN TARGET serviceExtension OF PROJECT transparentExpression WITH CONFIGURATION Release ===
+
+Check dependencies
+[BCEROR]Code Signing Error: "serviceExtension" requires a provisioning profile. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'App Extension' in SDK 'iOS 11.1'
+
+Create product structure
+/bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex
+
+Clean.Remove clean build/Release-iphoneos/serviceExtension.appex
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex
+
+Clean.Remove clean build/Release-iphoneos/serviceExtension.appex.dSYM
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex.dSYM
+
+Clean.Remove clean build/transparentExpression.build/Release-iphoneos/serviceExtension.build
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/serviceExtension.build
+
+=== CLEAN TARGET transparentExpression OF PROJECT transparentExpression WITH CONFIGURATION Release ===
+
+Check dependencies
+[BCEROR]Code Signing Error: "transparentExpression" requires a provisioning profile with the Push Notifications feature. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'Application' in SDK 'iOS 11.1'
+
+Create product structure
+/bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app
+/bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns
+
+Clean.Remove clean build/Release-iphoneos/transparentExpression.app
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app
+
+Clean.Remove clean build/Release-iphoneos/transparentExpression.app.dSYM
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app.dSYM
+
+Clean.Remove clean build/transparentExpression.build/Release-iphoneos/transparentExpression.build
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/transparentExpression.build
+
+=== CLEAN TARGET transparentExpressionTests OF PROJECT transparentExpression WITH CONFIGURATION Release ===
+
+Check dependencies
+[BCEROR]Code Signing Error: Signing for "transparentExpressionTests" requires a development team. Select a development team in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'Unit Test Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: Signing for "transparentExpressionTests" requires a development team. Select a development team in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'Unit Test Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: Signing for "transparentExpressionTests" requires a development team. Select a development team in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'Unit Test Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: Signing for "transparentExpressionTests" requires a development team. Select a development team in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'Unit Test Bundle' in SDK 'iOS 11.1'
+
+Create product structure
+/bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
+
+Clean.Remove clean build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
+
+Clean.Remove clean build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
+
+Clean.Remove clean build/transparentExpression.build/Release-iphoneos/transparentExpressionTests.build
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/transparentExpressionTests.build
+
+=== CLEAN TARGET transparentExpressionUITests OF PROJECT transparentExpression WITH CONFIGURATION Release ===
+
+Check dependencies
+[BCEROR]Code Signing Error: "transparentExpressionUITests" requires a provisioning profile. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'UI Testing Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: "transparentExpressionUITests" requires a provisioning profile. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'UI Testing Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: "transparentExpressionUITests" requires a provisioning profile. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'UI Testing Bundle' in SDK 'iOS 11.1'
+[BCEROR]Code Signing Error: "transparentExpressionUITests" requires a provisioning profile. Select a provisioning profile for the "Release" build configuration in the project editor.
+[BCEROR]Code Signing Error: Code signing is required for product type 'UI Testing Bundle' in SDK 'iOS 11.1'
+
+Create product structure
+/bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpressionUITests-Runner.app/PlugIns/transparentExpressionUITests.xctest
+
+Clean.Remove clean build/Release-iphoneos/transparentExpressionUITests-Runner.app/PlugIns/transparentExpressionUITests.xctest
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpressionUITests-Runner.app/PlugIns/transparentExpressionUITests.xctest
+
+Clean.Remove clean build/Release-iphoneos/transparentExpressionUITests-Runner.app
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpressionUITests-Runner.app
+
+Clean.Remove clean build/Release-iphoneos/transparentExpressionUITests-Runner.app/PlugIns/transparentExpressionUITests.xctest.dSYM
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpressionUITests-Runner.app/PlugIns/transparentExpressionUITests.xctest.dSYM
+
+Clean.Remove clean build/transparentExpression.build/Release-iphoneos/transparentExpressionUITests.build
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/transparentExpressionUITests.build
+
+** CLEAN SUCCEEDED **
+
