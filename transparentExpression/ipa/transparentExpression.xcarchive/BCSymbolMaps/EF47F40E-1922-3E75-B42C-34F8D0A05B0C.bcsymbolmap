@@ -1,0 +1,33 @@
+BCSymbolMap Version: 2.0
+-[NotificationService didReceiveNotificationRequest:withContentHandler:]
+___72-[NotificationService didReceiveNotificationRequest:withContentHandler:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[NotificationService serviceExtensionTimeWillExpire]
+-[NotificationService loadAttachmentForUrlString:withType:completionHandle:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___76-[NotificationService loadAttachmentForUrlString:withType:completionHandle:]_block_invoke
+___copy_helper_block_.82
+___destroy_helper_block_.83
+-[NotificationService fileExtensionForMediaType:]
+-[NotificationService contentHandler]
+-[NotificationService setContentHandler:]
+-[NotificationService bestAttemptContent]
+-[NotificationService setBestAttemptContent:]
+-[NotificationService .cxx_destruct]
+___block_descriptor_tmp
+___block_descriptor_tmp.85
+_OBJC_IVAR_$_NotificationService._contentHandler
+_OBJC_IVAR_$_NotificationService._bestAttemptContent
+_OBJC_METACLASS_$_NotificationService
+_OBJC_CLASS_$_NotificationService
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/liusong/LSMakeEmotion/transparentExpression/serviceExtension/NotificationService.m
+/Users/liusong/LSMakeEmotion/transparentExpression
+__destroy_helper_block_
+__copy_helper_block_
+__76-[NotificationService loadAttachmentForUrlString:withType:completionHandle:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+__72-[NotificationService didReceiveNotificationRequest:withContentHandler:]_block_invoke

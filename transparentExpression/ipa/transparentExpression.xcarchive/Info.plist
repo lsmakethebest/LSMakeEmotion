@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/transparentExpression.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>com.liusong.transparentEmoticon</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.2.0</string>
+		<key>CFBundleVersion</key>
+		<string>33</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Developer: Kai Wang (7G4GZUV8ED)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2018-05-26T02:32:51Z</date>
+	<key>Name</key>
+	<string>transparentExpression</string>
+	<key>SchemeName</key>
+	<string>transparentExpression</string>
+</dict>
+</plist>

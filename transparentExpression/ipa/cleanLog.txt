@@ -5,14 +5,14 @@ Check dependencies
 Create product structure
 /bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex
 
+Clean.Remove clean build/Release-iphoneos/serviceExtension.appex
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex
+
 Clean.Remove clean build/Release-iphoneos/serviceExtension.appex.dSYM
     builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex.dSYM
 
 Clean.Remove clean build/transparentExpression.build/Release-iphoneos/serviceExtension.build
     builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/serviceExtension.build
-
-Clean.Remove clean build/Release-iphoneos/serviceExtension.appex
-    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/serviceExtension.appex
 
 === CLEAN TARGET transparentExpression OF PROJECT transparentExpression WITH CONFIGURATION Release ===
 
@@ -46,11 +46,11 @@ Check dependencies
 Create product structure
 /bin/mkdir -p /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
 
-Clean.Remove clean build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
-    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
-
 Clean.Remove clean build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
     builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest
+
+Clean.Remove clean build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
+    builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/Release-iphoneos/transparentExpression.app/PlugIns/transparentExpressionTests.xctest.dSYM
 
 Clean.Remove clean build/transparentExpression.build/Release-iphoneos/transparentExpressionTests.build
     builtin-rm -rf /Users/liusong/LSMakeEmotion/transparentExpression/build/transparentExpression.build/Release-iphoneos/transparentExpressionTests.build
